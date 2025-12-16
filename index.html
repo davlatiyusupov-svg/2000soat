@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ef4444'%3E%3Cpath d='M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1L13.5 2.5L16.17 5.17C15.24 5.06 14.32 5 13.4 5H10.6C9.68 5 8.76 5.06 7.83 5.17L10.5 2.5L9 1L3 7V9C3.5 8.5 4.24 8 5 8C5.76 8 6.5 8.5 7 9V7.5L12 2.5L17 7.5V9C17.5 8.5 18.24 8 19 8C19.76 8 20.5 8.5 21 9Z'/%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Market Sniper - Find the Best Deals</title>
+    <meta property="og:title" content="Market Sniper - Find the Best Deals" />
+    <meta property="og:description" content="Discover amazing discounts across all marketplaces with Market Sniper Telegram Mini App" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+      /* Custom slider styles */
+      .slider::-webkit-slider-thumb {
+        appearance: none;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background: #3b82f6;
+        cursor: pointer;
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 0 1px #d1d5db;
+      }
+      
+      .slider::-moz-range-thumb {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background: #3b82f6;
+        cursor: pointer;
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 0 1px #d1d5db;
+      }
+
+      /* Line clamp utility */
+      .line-clamp-2 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+
+      /* Telegram-specific styles */
+      body {
+        margin: 0;
+        padding: 0;
+        overscroll-behavior: none;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
